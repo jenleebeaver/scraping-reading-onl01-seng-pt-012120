@@ -12,6 +12,8 @@ doc.css(".headline-26OIBN").text #here we are using our css selector to grab the
 
 puts doc.css(".headline-26OIBN") #prints HTML
 
+
+#iterating
 html = open("https://flatironschool.com/")
 doc = Nokogiri::HTML(html)
 

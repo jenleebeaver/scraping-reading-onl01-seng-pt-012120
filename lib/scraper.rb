@@ -8,6 +8,6 @@ doc = Nokogiri::HTML(open("https://flatironschool.com/")) #takes string of HTML 
 #this will puts out our html into a doc
 #Nokogiri allows us to iterate over our code and use brackets and
 #dot notation to access our code
-doc.css(".headline-26OIBN").text #here we are using our css selector to grab the span of the title 
+doc.css(".headline-26OIBN").text #here we are using our css selector to grab the span of the title
 
 puts doc.css(".headline-26OIBN") #prints HTML
